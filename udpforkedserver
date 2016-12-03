@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc udp_forked_server.c -o udp_forked_server
+
+clean:
+	rm udp_forked_server
